@@ -1,1 +1,10 @@
-{"private":true,"scripts":{"test":"node -e \"process.exit(0)\"","uat":"npm test"}}
+{
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "uat": "npm test"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
